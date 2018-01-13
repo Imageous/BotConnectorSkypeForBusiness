@@ -45,6 +45,9 @@
     <RunPostBuildEvent>OnBuildSuccess</RunPostBuildEvent>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="ApiAiSDK, Version=1.6.5.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>packages\ApiAiSDK.1.6.5\lib\net35\ApiAiSDK.dll</HintPath>
+    </Reference>
     <Reference Include="HtmlAgilityPack">
       <HintPath>ExternalDLLS\HtmlAgilityPack.dll</HintPath>
     </Reference>
